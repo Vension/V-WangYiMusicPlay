@@ -3,7 +3,7 @@
 
 ## 效果预览
 <p>
-    <img src="preview/录屏_20190703_143810.mp4" style="width: 50%;"/>
+    <img src="preview/GIF.gif" style="width: 50%;"/>
 </p>
 
 ####[Java版本->](https://github.com/AchillesLzg/jianshu-neteasedisc)
