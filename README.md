@@ -6,5 +6,5 @@
     <img src="preview/GIF.gif" style="width: 50%;"/>
 </p>
 
-####[Java版本->](https://github.com/AchillesLzg/jianshu-neteasedisc)
-####博客地址：http://www.jianshu.com/p/cb54990219d9
+* [Java版本->](https://github.com/AchillesLzg/jianshu-neteasedisc)
+* 博客地址：http://www.jianshu.com/p/cb54990219d9
