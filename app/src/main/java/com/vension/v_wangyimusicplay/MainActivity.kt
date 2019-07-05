@@ -29,7 +29,6 @@ import com.vension.v_wangyimusicplay.utils.DisplayUtil
 import com.vension.v_wangyimusicplay.utils.FastBlurUtil
 import com.vension.v_wangyimusicplay.widget.BackgourndAnimationRelativeLayout
 import com.vension.v_wangyimusicplay.widget.DiscView
-import com.vension.v_wangyimusicplay.widget.DiscView.DURATION_NEEDLE_ANIAMTOR
 import java.io.Serializable
 import java.util.*
 /**
@@ -287,14 +286,14 @@ class MainActivity : AppCompatActivity(), DiscView.IPlayInfo, View.OnClickListen
     }
 
     private operator fun next() {
-        mRootLayout!!.postDelayed({ optMusic(MusicService.ACTION_OPT_MUSIC_NEXT) }, DURATION_NEEDLE_ANIAMTOR.toLong())
+        mRootLayout!!.postDelayed({ optMusic(MusicService.ACTION_OPT_MUSIC_NEXT) }, DiscView.DURATION_NEEDLE_ANIAMTOR.toLong())
         stopUpdateSeekBarProgree()
         mTvMusicDuration!!.text = duration2Time(0)
         mTvTotalMusicDuration!!.text = duration2Time(0)
     }
 
     private fun last() {
-        mRootLayout!!.postDelayed({ optMusic(MusicService.ACTION_OPT_MUSIC_LAST) }, DURATION_NEEDLE_ANIAMTOR.toLong())
+        mRootLayout!!.postDelayed({ optMusic(MusicService.ACTION_OPT_MUSIC_LAST) }, DiscView.DURATION_NEEDLE_ANIAMTOR.toLong())
         stopUpdateSeekBarProgree()
         mTvMusicDuration!!.text = duration2Time(0)
         mTvTotalMusicDuration!!.text = duration2Time(0)
